@@ -4,7 +4,7 @@ import Image from "next/image";
 const Footer: FC = () => {
   return (
     <footer
-      className="flex justify-center items-center h-36"
+      className="flex justify-center items-center h-24 fixed bottom-0 left-0 w-full"
       style={{ backgroundColor: "#eef0f4" }}
     >
       <div className="mr-5">

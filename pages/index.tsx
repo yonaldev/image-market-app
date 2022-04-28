@@ -30,14 +30,11 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <div className="flex " style={{ maxHeight: 580 }}>
-        <div style={{ minWidth: 400 }}>
-          <Image
-            src="/assets/products.jpg"
-            alt="Imagen de productos de ropa"
-            height={580}
-            width={400}
-          />
-        </div>
+        <img
+          src="/assets/products.jpg"
+          alt="imagen de producto"
+          className="max-w-[400px]"
+        />
         <div className="flex flex-col w-full items-center">
           <Search handleOnChange={handleOnChange} />
           <div className="overflow-y-scroll">
